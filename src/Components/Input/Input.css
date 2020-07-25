@@ -8,12 +8,14 @@
     width: 80%;
     margin-bottom: 15px;
     box-sizing: border-box;
+    padding: 5px;
+    text-align: center;
   }
 
   .input-container:active {
       border: 2px solid #2751cff1;
   }
 
-  .input:focus {
+  .input-container:focus {
     border: 2px solid #1a44c2f1;
 }

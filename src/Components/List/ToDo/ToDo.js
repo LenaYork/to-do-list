@@ -1,15 +1,23 @@
 import React from 'react';
+import { Radio, Button } from 'antd';
+import { CloseOutlined } from '@ant-design/icons';
+
 import './ToDo.css';
-import { Radio } from 'antd';
-import { Button } from 'antd';
+
 export function ToDo(props) {
-    
     return(
         <div className="todo">
-            <Radio /> 
-            {props.text} 
-            <Button className="delete-todo-button" type="danger" size="small" shape="round" color="purple-7"  onClick={() => {}}>
-                x
+            <Radio className="radioBox"/> 
+            <div class="todo-text"> {props.text} </div>
+            <Button 
+                className="delete-todo-button" 
+                type="danger" 
+                size="small" 
+                shape="round" 
+                color="purple-7"  
+                onClick={() => {}}
+            >
+                <CloseOutlined className="cross"/>
             </Button>
         </div>
     )

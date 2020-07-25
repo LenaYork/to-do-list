@@ -6,13 +6,33 @@
     margin: 0 auto;
     margin-top: 5px;
     margin-bottom: 5px;
-    position: relative;
+    /* position: relative; */
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
 }
 
 .delete-todo-button {
     /* text-align: right; */
-    position: absolute;
+    /* position: absolute;
     right: 0;
     top: 0;
-    margin-right: 5px;
+    margin-right: 5px; */
+    /* flex-grow: 0.03; */
+    max-width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
 }
+
+.todo-text {
+    /* flex-grow: 0.96; */
+    text-align: left;
+    /* flex-grow: unset; */
+}
+
+.radioBox {
+    /* flex-grow: 0.01; */
+}
+

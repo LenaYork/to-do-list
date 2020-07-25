@@ -1,1 +1,13 @@
-@import '~antd/dist/antd.css';
+.control-container {
+    height: 45px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.control-button {
+    margin-right: 5px;
+}
+
+.user-quantity {
+    width: 35px;
+}

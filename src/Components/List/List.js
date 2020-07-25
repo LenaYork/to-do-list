@@ -5,7 +5,7 @@ import {ToDo} from './ToDo';
 export function List(props) {
     const renderToDoElement = props.elements.map(elem => <ToDo text={elem} /> )
     return(
-        <div className="list">
+        <div className="list-container">
            {renderToDoElement}
         </div>
     )

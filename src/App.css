@@ -1,3 +1,5 @@
+@import '~antd/dist/antd.css';
+
 .app {
   /* background-color: blue; */
   width: 75%;
@@ -17,10 +19,8 @@ h1 {
   color: #2a3146;
 }
 
-.list, .control {
+.list-container, .control-container {
   width: 80%;
-  /* background-color: brown; */
-  /* margin: 0 auto; */
   border-radius: 25px;
   border: 1px solid #2a3146;
   margin-bottom: 15px;

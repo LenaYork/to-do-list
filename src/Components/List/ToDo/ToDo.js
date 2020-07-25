@@ -1,11 +1,11 @@
 import React from 'react';
 import './ToDo.css';
-
+import { Radio } from 'antd';
 export function ToDo(props) {
     
     return(
         <div className="todo">
-            {props.text}
+            <Radio /> {props.text}
         </div>
     )
 }
